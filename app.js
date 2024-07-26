@@ -19,7 +19,7 @@ var scrolling=true;
 
 $(".back").bind("click",function(e){
     e.preventDefault();
-    $("highlight-wrapper").animate({
+    $(".highlight-wrapper").animate({
         scrollLeft:"-="+ step +"px"
     })
 
@@ -28,7 +28,7 @@ $(".back").bind("click",function(e){
 
 $(".next").bind("click",function(e){
     e.preventDefault();
-    $("highlight-wrapper").animate({
+    $(".highlight-wrapper").animate({
         scrollLeft:"+="+ step +"px"
     })
 
@@ -36,12 +36,12 @@ $(".next").bind("click",function(e){
 })
 $(".back-menus").bind("click",function(e){
     e.preventDefault();
-    $("filter-wrapper").animate({
+    $(".filter-wrapper").animate({
         scrollLeft:"-+"+ stepFilter +"px"  })
 })
 
 $(".next-menus").bind("click",function(e){
     e.preventDefault();
-    $("filter-wrapper").animate({
+    $(".filter-wrapper").animate({
         scrollLeft:"+="+ stepFilter +"px"  })
 })
