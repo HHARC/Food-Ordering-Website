@@ -404,3 +404,14 @@ h1 {
         width: 90%;
     }
 }
+.btn{
+        background-color: var(--primaryColor) !important;
+        /* other styles */
+        margin-left: 50px;
+        color: var(--whiteColor) !important;
+        
+        
+      }
+.btn-signup{
+   margin-top: 2px;
+      }
