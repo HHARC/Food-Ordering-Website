@@ -380,6 +380,9 @@ h1 {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+     h1{
+        margin-left:50px;
+    }
     .sidebar {
         width: 100%;
         height: auto;
